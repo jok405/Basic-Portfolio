@@ -1,0 +1,193 @@
+header {
+	width: 100%;
+	border-bottom-style: ridge;
+}
+
+h1 {
+	font-family:"Times New Roman";
+	color: #ffffff;
+	padding-top: 10px;
+	padding-left: 10%;
+	margin: 0 auto;
+	
+}
+
+.navbar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #4aaaa5;
+	clear: both;
+}
+
+.name {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	float: left;
+	font-weight: bold;
+
+}
+
+li {
+	float: right;
+
+}
+
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover:not(.active) {
+	background-color: #111;
+}
+
+body {
+	background-color: #dddddd;
+	margin: 0 auto;
+	font-family: 'Nothing You Could Do';
+	color: #777777;
+	font-size: 18px;
+	line-height: 150%;
+	padding-bottom: 4px;
+}
+
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+	border: 5px grey;
+	padding-bottom: 4px;
+	padding-top: 15px;
+
+}
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  /* for edge cases: */
+  width: 100%;
+  max-width: 100%;
+}
+
+@media (min-width: 768px) {
+  .container{
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container{
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container{
+    width: 1170px;
+  }
+}
+
+
+h2 {
+	color: #4aaaa5;
+	margin: 0 auto;
+	padding-top: 20px;
+	padding-left: 15px;
+	border-bottom-style: inset;
+
+}
+
+img {
+	float: left;
+	margin: 0 auto;
+	padding-right: 12px;
+	height: 150px;
+}
+
+#About-me {
+	background-color: #ffffff;
+	width: 650px;
+	padding: 4px;
+	padding-bottom: 3px;
+	float: left;
+	outline-width: thin;
+	outline-color: grey;
+	border: 1px solid #777;
+}
+
+.panel-body {
+	padding-left: 9px;
+	
+}
+.Connect-header {
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: bold;
+
+}
+.subwrapper {
+	margin-left: 10%;
+	margin-top: 8px;
+	max-height: 120px;
+	text-align: center;
+	background-color: #ffffff;
+	width: 270px;
+	padding: 4px;
+	padding-top: 4px;
+	padding-bottom: 5px;
+	float: left;
+	outline-width: thin;
+	outline-color: grey;
+	border: 1px solid #777;
+	position: relative;
+}
+
+h3 {
+	color: #4aaaa5;
+	float: right;
+	width: 260px;
+	height: 30px;
+	margin: 0 auto;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding: 4px;
+	border-bottom-style: inset;
+}
+
+.netwk_Icon {
+    margin: 0 4.5%;
+    border: 5px solid #ccc;
+    float: right;
+    width: 20px;
+    height: 20px;
+    clear: both;
+}
+.github, .linkedin, .stackexchange {
+	width: 25%;
+	height: 25%;
+	margin-top: 2%;
+	align-items: center;
+}
+
+
+footer {
+	clear: both;
+	position: fixed;
+	left: 0;
+	height: 10px;
+	width: 100%;
+	background-color: #666666;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	bottom: 0;
+	border-top-style: inset;
+	text-align: center;
+
+}
+
