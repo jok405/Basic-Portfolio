@@ -120,10 +120,33 @@ img {
 	outline-color: grey;
 	border: 1px solid #777;
 }
-
+#Portfolio {
+	background-color: #ffffff;
+	width: 750px;
+	padding: 4px;
+	padding-bottom: 3px;
+	float: left;
+	outline-width: thin;
+	outline-color: grey;
+	border: 1px solid #777;
+}
 .panel-body {
 	padding-left: 9px;
-	
+}
+.column_Img {
+	grid-template-columns: 300px 300px;
+	grid-gap: 10px;
+	float: top;
+
+}
+#portfolio_Pic: {
+	text-align: left;
+	width: 25%;
+	height: 25%;
+	justify-content: center;
+	align-items: center;
+	clear: both;
+	display: table;
 }
 .Connect-header {
 	text-align: center;
